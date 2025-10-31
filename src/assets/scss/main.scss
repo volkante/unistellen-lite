@@ -1,0 +1,14 @@
+// 1) Önce kendi değişkenlerimiz
+@import "./abstracts/variables";
+
+// 2) Bootstrap’in fonksiyon/vars/mixins ve ana paketini import et
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/bootstrap"; // tüm Bootstrap
+
+// 3) Proje bazlı stiller
+@import "./abstracts/mixins";
+@import "./base/base";
+@import "./pages/jobs";
